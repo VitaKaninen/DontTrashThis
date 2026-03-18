@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<XmlExtensions.PatchDef Name="DontTrashThis_PatchBuilding" Abstract="True">
+		<parameters>
+			<li>key</li>
+			<li>defName</li>
+			<li>defaultValue</li>
+		</parameters>
+		<apply>
+			<Operation Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThisTemp</modId>
+				<key>{key}</key>
+				<defaultValue>{defaultValue}</defaultValue>
+				<caseTrue>
+					<Operation Class="XmlExtensions.PatchOperationSafeAdd">
+						<xpath>ThingDefDoc/ThingDef[defName="{defName}"]</xpath>
+						<xmlDoc>ThingDefDoc</xmlDoc>
+						<safetyDepth>1</safetyDepth>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</Operation>
+		</apply>
+	</XmlExtensions.PatchDef>
+
+</Defs>

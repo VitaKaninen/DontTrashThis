@@ -284,7 +284,7 @@
 					<li Class="XmlExtensions.Setting.Checkbox">
 						<padLeft>100</padLeft>
 						<padRight>150</padRight>
-						<key>Poker Table</key>
+						<key>PokerTable</key>
 						<defaultValue>false</defaultValue>
 						<color>255,255,255</color>
 						<label>Poker Table</label>
@@ -606,7 +606,7 @@
 					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
 						<padLeft>100</padLeft>
 						<padRight>150</padRight>
-						<key>Styling Station</key>
+						<key>StylingStation</key>
 						<defaultValue>false</defaultValue>
 						<color>255,255,255</color>
 						<label>Styling Station</label>
@@ -2377,6 +2377,102 @@
 				</settings>
 			</li>
 
+			<!-- ================= Wolfein Race ================= -->
+
+			<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Wolfein Race</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_FloorLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Floor Lamp</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_NeonPlanter</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Neon Planter</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_StreetLight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Street Light</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_WallLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wall Lamp</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_Doormat</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Doormat</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_SurveillanceCamera</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Surveillance Camera</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_1x2_Table</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (1x2)</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_2x2_Table</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (2x2)</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_2x3_Table</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (2x3)</label>
+					</li>
+					<li MayRequire="MelonDove.WolfeinRace" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Wolfein_3x3_Table</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (3x3)</label>
+					</li>
+				</settings>
+			</li>
+			
 			<!-- ================= Reset Button ================= -->
 	
 			<li Class="XmlExtensions.Setting.GapLine"/>

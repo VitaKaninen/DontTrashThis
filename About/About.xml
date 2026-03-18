@@ -49,6 +49,7 @@ Core • Royalty • Ideology • Biotech • Anomaly
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3526354009]Replace Stuff - Cont.[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3406457135]Terraforming Devices[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3166048152]Toxlamps[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3536856332]Useful Ancient Junk[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013]Vanilla Exp. - [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1957158779]Farming, [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143]Furniture, [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2062943477]Power, [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079]Spacer[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3473140562]Wolfein Race[/url]
 	</description>
 	<modDependencies>
 		<li>
@@ -91,5 +92,6 @@ Core • Royalty • Ideology • Biotech • Anomaly
 		<li>vanillaexpanded.vfefarming</li>
 		<li>vanillaexpanded.vfepower</li>
 		<li>vanillaexpanded.vfespacer</li>
+		<li>MelonDove.WolfeinRace</li>
 	</loadAfter>
 </ModMetaData>
