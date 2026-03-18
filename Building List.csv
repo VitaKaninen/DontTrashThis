@@ -1,0 +1,313 @@
+Mod Name,Label,Defname,Key,May Require
+Core,Armchair,Armchair,Armchair,
+Core,Battery,Battery,Battery,
+Core,Bedroll,Bedroll,Bedroll,
+Core,Billiards Table,BilliardsTable,BilliardsTable,
+Core,Campfire,Campfire,Campfire,
+Core,Chemfuel Powered Generator ,ChemfuelPoweredGenerator ,ChemfuelPoweredGenerator ,
+Core,Chess Table,ChessTable,ChessTable,
+Core,Cooler,Cooler,Cooler,
+Core,Couch,Couch,Couch,
+Core,Deep Drill,DeepDrill,DeepDrill,
+Core,Dining Chair,DiningChair,DiningChair,
+Core,Double Bedroll,BedrollDouble,BedrollDouble,
+Core,Electric Crematorium,ElectricCrematorium,ElectricCrematorium,
+Core,Flatscreen Television,FlatscreenTelevision,FlatscreenTelevision,
+Core,Flood Light,FloodLight,FloodLight,
+Core,Game of Ur,GameOfUrBoard,GameOfUrBoard,
+Core,Geothermal Generator,GeothermalGenerator,GeothermalGenerator,
+Core,Ground Penetrating Scanner,GroundPenetratingScanner,GroundPenetratingScanner,
+Core,Harp,Harp,Harp,
+Core,Hoopstone Ring,HoopstoneRing,HoopstoneRing,
+Core,Horseshoes Pin,HorseshoesPin,HorseshoesPin,
+Core,Hydroponics Basin,HydroponicsBasin,HydroponicsBasin,
+Core,Long Range Mineral Scanner,LongRangeMineralScanner,LongRangeMineralScanner,
+Core,Megascreen Television,MegascreenTelevision,MegascreenTelevision,
+Core,Moisture Pump,MoisturePump,MoisturePump,
+Core,Orbital Trade Beacon,OrbitalTradeBeacon,OrbitalTradeBeacon,
+Core,Plant pot,PlantPot,PlantPot,
+Core,Poker Table,PokerTable,PokerTable,
+Core,Power Switch,PowerSwitch,PowerSwitch,
+Core,Sarcophagus,Sarcophagus,Sarcophagus,
+Core,Solar Generator,SolarGenerator,SolarGenerator,
+Core,Standing Lamp,StandingLamp,StandingLamp,
+Core,Stonecutter Table,TableStonecutter,TableStonecutter,
+Core,Sun Lamp,SunLamp,SunLamp,
+Core,Table (1x2),Table1x2c,Table1x2c,
+Core,Table (2x2),Table2x2c,Table2x2c,
+Core,Table (2x4),Table2x4c,Table2x4c,
+Core,Table (3x3),Table3x3c,Table3x3c,
+Core,Telescope,Telescope,Telescope,
+Core,Torch Lamp,TorchLamp,TorchLamp,
+Core,Torch Wall Lamp,TorchWallLamp,TorchWallLamp,
+Core,Tube Television,TubeTelevision,TubeTelevision,
+Core,Vent,Vent,Vent,
+Core,Wall Lamp,WallLamp,WallLamp,
+Core,Watermill Generator,WatermillGenerator,WatermillGenerator,
+Core,Wind Turbine,WindTurbine,WindTurbine,
+Core,WoodFired Generator,WoodFiredGenerator,WoodFiredGenerator,
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Royalty,Ship Landing Beacon,ShipLandingBeacon,ShipLandingBeacon,Ludeon.RimWorld.Royalty
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Ideology,Autobong,Autobong,Autobong,Ludeon.RimWorld.Ideology
+Ideology,Burnbong,Burnbong,Burnbong,Ludeon.RimWorld.Ideology
+Ideology,Cannibal Platter,CannibalPlatter,CannibalPlatter,Ludeon.RimWorld.Ideology
+Ideology,Christmas Tree,ChristmasTree,ChristmasTree,Ludeon.RimWorld.Ideology
+Ideology,Darktorch,Darktorch,Darktorch,Ludeon.RimWorld.Ideology
+Ideology,Fungus Darktorch,DarktorchFungus,DarktorchFungus,Ludeon.RimWorld.Ideology
+Ideology,Effigy,Effigy,Effigy,Ludeon.RimWorld.Ideology
+Ideology,Gibbet Cage,GibbetCage,GibbetCage,Ludeon.RimWorld.Ideology
+Ideology,Pyre,Pyre,Pyre,Ludeon.RimWorld.Ideology
+Ideology,Sacrificial Flag,SacrificialFlag,SacrificialFlag,Ludeon.RimWorld.Ideology
+Ideology,Skullspike,Skullspike,Skullspike,Ludeon.RimWorld.Ideology
+Ideology,Styling Station,StylingStation,Styling Station,Ludeon.RimWorld.Ideology
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Biotech,Toxifier Generator,ToxifierGenerator,ToxifierGenerator,Ludeon.RimWorld.Biotech
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Anomaly,Atmospheric Heater,AtmosphericHeater,AtmosphericHeater,Ludeon.RimWorld.Anomaly
+Anomaly,Bioferrite Generator,BioferriteGenerator,BioferriteGenerator,Ludeon.RimWorld.Anomaly
+Anomaly,Proximity Detector,ProximityDetector,ProximityDetector,Ludeon.RimWorld.Anomaly
+Anomaly,Shard Beacon,ShardBeacon,ShardBeacon,Ludeon.RimWorld.Anomaly
+Anomaly,Void Sculpture,VoidSculpture,VoidSculpture,Ludeon.RimWorld.Anomaly
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Advanced Power Plus,Advanced Stirling Radioisotope Generator,ASRG,ASRG,meltup.advancedpowerplus
+Advanced Power Plus,Large Advanced Stirling Radioisotope Generator,large_ASRG,large_ASRG,meltup.advancedpowerplus
+Advanced Power Plus,Advanced Geothermal Generator,sd_adv_powergen_adv_geothermal_generator,sd_adv_powergen_adv_geothermal_generator,meltup.advancedpowerplus
+Advanced Power Plus,Advanced Solar Generator,sd_adv_powergen_adv_solar_generator,sd_adv_powergen_adv_solar_generator,meltup.advancedpowerplus
+Advanced Power Plus,Advanced Watermill Generator,sd_adv_powergen_WatermillGenerator,sd_adv_powergen_WatermillGenerator,meltup.advancedpowerplus
+Advanced Power Plus,Advanced Wind Turbine,sd_adv_powergen_adv_wind_turbine,sd_adv_powergen_adv_wind_turbine,meltup.advancedpowerplus
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Billed Deep Drill,Billed Deep Drill,BilledDeepDrill,BilledDeepDrill,buggy.rimworld.billeddeepdrill
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Camping Tent,Canopy,Canopy,Canopy,Aoba.Tent
+Camping Tent,Wooden Canopy,WoodenCanopy,WoodenCanopy,Aoba.Tent
+Camping Tent,Teepee,Teepee,Teepee,Aoba.Tent
+Camping Tent,Tent,Tent,Tent,Aoba.Tent
+Camping Tent,Viking Tent,VikingTent,VikingTent,Aoba.Tent
+Camping Tent,Modern Tent,ModernTent,ModernTent,Aoba.Tent
+Camping Tent,Folding Tent,FoldingTent,FoldingTent,Aoba.Tent
+Camping Tent,Camping Luggage,CampingLuggages,CampingLuggages,Aoba.Tent
+Camping Tent,Wood Pile,WoodPile,WoodPile,Aoba.Tent
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Chemfuel Flood Light,Fueled Street Lamp,ChemfuelFloodLight,ChemfuelFloodLight,titaniusrex.chemfuelfloodlight
+,,,,
+Mod Name,Label,Defname,Key,May Require
+[CF] Chemfuel Powered Deepdrill,Chemfuel Generator + DeepDrill,Thek_ChemfuelGeneratorDeepdrill,Thek_ChemfuelGeneratorDeepdrill,cf.chempowereddeepdrill
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Dubs Bad Hygiene,Advanced Toilet,ToiletAdv,ToiletAdv,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Air-con Outdoor Unit,AirConOutdoorUnit,AirConOutdoorUnit,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Air-Con Pipe,airPipe,airPipe,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Basin,BasinStuff,BasinStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Bath Mat,BathMat,BathMat,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Bathtub,BathtubStuff,BathtubStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Biosolids Composter,BiosolidsComposter,BiosolidsComposter,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Burn Pit,BurnPit,BurnPit,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Cryogenic Extraction Node,CryogenicExtractionNode,CryogenicExtractionNode,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Deep Water Well,DeepWaterWellInlet,DeepWaterWellInlet,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Deep Water WellInlet,DeepWaterWellInlet,DeepWaterWellInlet,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Electric Boiler,ElectricBoiler,ElectricBoiler,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Electric Pump,ElectricPump,ElectricPump,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Electric Sauna Heater,DBHSaunaHeaterElec,DBHSaunaHeaterElec,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Fire Sprinkler,FireSprinkler,FireSprinkler,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Fountain,Fountain,Fountain,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Fueled Sauna Heater,DBHSaunaHeaterLog,DBHSaunaHeaterLog,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Gas Boiler,GasBoiler,GasBoiler,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Geothermal Heater,GeothermHeater,GeothermHeater,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Hot Tub,HotTub,HotTub,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Hot Water Tank,HotWaterTank,HotWaterTank,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Huge Water Tower,WaterTowerL,WaterTowerL,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Irrigation Sprinkler,IrrigationSprinkler,IrrigationSprinkler,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Kitchen Sink,KitchenSink,KitchenSink,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Latrine,PitLatrine,PitLatrine,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Litter Box,LitterBox,LitterBox,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Log Boiler,LogBoiler,LogBoiler,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Plumbing,sewagePipeStuff,sewagePipeStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,PlumbingValve,plumbingValve,plumbingValve,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Power Shower,ShowerAdvStuff,ShowerAdvStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Primitive Well,PrimitiveWell,PrimitiveWell,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Pumping Station,PumpingStation,PumpingStation,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Sauna Seating,DBHSaunaSeating,DBHSaunaSeating,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Septic Tank,SewageSepticTank,SewageSepticTank,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Sewage Dump Port,SewageDumpPort,SewageDumpPort,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Sewage Outlet,SewageOutlet,SewageOutlet,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Sewage Treatment,SewageTreatment,SewageTreatment,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Shower,ShowerStuff,ShowerStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Simple Shower,ShowerSimple,ShowerSimple,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Smart Toilet,ToiletAdvStuff,ToiletAdvStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Solar Heater,SolarHeater,SolarHeater,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Spacer Water Recovery System,SpacerWaterRecoverySystem,SpacerWaterRecoverySystem,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Swimming Pool,DBHSwimmingPool,DBHSwimmingPool,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Toilet,ToiletStuff,ToiletStuff,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Vacuum Toilet,ToiletSpacer,ToiletSpacer,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Washing Machine,WashingMachine,WashingMachine,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Bowl,PetWaterBowl,PetWaterBowl,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Butt,WaterButt,WaterButt,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Recovery System,SpacerWaterRecoverySystem,SpacerWaterRecoverySystem,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Tank,WaterTankSmall,WaterTankSmall,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Tower,WaterTowerS,WaterTowerS,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Treatment,WaterTreatment,WaterTreatment,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Trough,WaterTrough,WaterTrough,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Tub,WashBucket,WashBucket,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Water Well,WaterWellInlet,WaterWellInlet,dubwise.dubsbadhygiene
+Dubs Bad Hygiene,Wind Pump,WindPump,WindPump,dubwise.dubsbadhygiene
+,,,,
+Mod Name,Label,Defname,Key,May Require
+FirefliesTwo,Firefly in a Jar,FF_JarGlassA,FF_JarGlassA,Scurvyez.FirefliesTwo
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Flood Light with Solar Panel,Flood Light with Solar Panel,FloodLightWithSolarPanelCent,FloodLightwithSolarPanel,titaniusrex.floodlightwithsolargenerator
+Flood Light with Solar Panel,,FloodLightWithSolarPanelRevers,,titaniusrex.floodlightwithsolargenerator
+Flood Light with Solar Panel,,FloodLightWithSolarPanelLeftSmool,,titaniusrex.floodlightwithsolargenerator
+Flood Light with Solar Panel,,FloodLightWithSolarPanel,,titaniusrex.floodlightwithsolargenerator
+Flood Light with Solar Panel,,FloodLightWithSolarPanelRightSmool,,titaniusrex.floodlightwithsolargenerator
+Flood Light with Solar Panel,,FloodLightWithSolarPanelTopFull,,titaniusrex.floodlightwithsolargenerator
+Flood Light with Solar Panel,,FloodLightWithSolarPanelTopSingle,,titaniusrex.floodlightwithsolargenerator
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Garden Light,Garden Light,SC_GardenLight,SC_GardenLight,sc.gradenfuniturelight
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Glowbug Jars,All Glowbug Jars,MFM_FungalBugJar,GlowbugJars,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJar_Amethyst,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJar_Azure,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJar_Crimson,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJar_Gold,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJar_Lime,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJar_Rose,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJars,,pineapple.glowbugjars
+Glowbug Jars,,MFM_GlowbugJars_Warm,,pineapple.glowbugjars
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Holiday Stuff,Holiday Stuff,HollidayLight_Blue,HolidayStuff,mlie.hollidaystuff
+Holiday Stuff,Holiday Light Green,HollidayLight_Green,,mlie.hollidaystuff
+Holiday Stuff,Holiday Light,HollidayLight,,mlie.hollidaystuff
+Holiday Stuff,Holiday Light Red,HollidayLight_Red,,mlie.hollidaystuff
+Holiday Stuff,Holiday Christmas Tree,HollidayChristmasTree,,mlie.hollidaystuff
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Higher Power,Chemfuel Powered Generator II,ChemfuelPoweredGenerator_II,ChemfuelPoweredGenerator_II,leion247612.higherhpower
+Higher Power,Geothermal Generator II,GeothermalGenerator_II,GeothermalGenerator_II,leion247612.higherhpower
+Higher Power,Solar Generator II,SolarGenerator_II,SolarGenerator_II,leion247612.higherhpower
+Higher Power,Toxifier Generator II,ToxifierGenerator_II,ToxifierGenerator_II,leion247612.higherhpower
+Higher Power,Watermill Generator II,WatermillGenerator_II,WatermillGenerator_II,leion247612.higherhpower
+Higher Power,Wind Turbine II,WindTurbine_II,WindTurbine_II,leion247612.higherhpower
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Lanterns,All Lanterns,ErokLanternMixede,Lanterns,zal.lanterns
+,,ErokLanternRedE,,
+,,ErokLanternWhiteE,,
+,,ErokLanternYellowE,,
+,,ErokLanternMixed,,
+,,ErokLanternMixedRE,,
+,,ErokLanternMixedR,,
+,,ErokLanternRed,,
+,,ErokLanternRedSE,,
+,,ErokLanternRedS,,
+,,ErokLanternWhiteSE,,
+,,ErokLanternWhiteS,,
+,,ErokLanternYellowSE,,
+,,ErokLanternYellowS,,
+,,ErokLanternWhite,,
+,,ErokLanternYellow,,
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Medieval Floodlight,Medieval Floodlight,MedievalFloodlight,MedievalFloodlight,salvador143.medievalfloodlight
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Medieval Lighting and Heat,Lantern,MLH_Lantern,MLH_Lantern,nunahuralshamikh.lightingandheat
+Medieval Lighting and Heat,Street Lantern,MLH_StreetLantern,MLH_StreetLantern,nunahuralshamikh.lightingandheat
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Night Lights,Small Night Light,ZNLSmall,ZNLSmall,zylle.nightlights
+Night Lights,Large Night Light,ZNLLarge,ZNLLarge,zylle.nightlights
+Night Lights,Grand Night Light,ZNLGrand,ZNLGrand,zylle.nightlights
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Potlights,Potlight,Potlight,Potlight,katana.potlights
+Potlights,Wall Potlight,WallPotlight,WallPotlight,katana.potlights
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Power Poles,Power Pole,RF_PowerPole,RF_PowerPole,co.uk.epicguru.rimforgepoles
+Power Poles,Wall Connector,RF_WallConnector,RF_WallConnector,co.uk.epicguru.rimforgepoles
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Power Poles Extended,Modern Power Pole,PP_MPowerPole,PP_MPowerPole,gy.ppextend
+Power Poles Extended,Modern Power Pole with Lamp,PP_MPowerPoleLamp,PP_MPowerPoleLamp,gy.ppextend
+Power Poles Extended,Power Pole with Lamp,PP_PowerPoleLamp,PP_PowerPoleLamp,gy.ppextend
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Replace Stuff - Continued,Over-the-wall Cooler,Cooler_Over,Cooler_Over,memegoddess.replacestuff
+Replace Stuff - Continued,Over-the-wall Cooler (wide),Cooler_Over2W,Cooler_Over2W,memegoddess.replacestuff
+Replace Stuff - Continued,Over-the-wall Vent,Vent_Over,Vent_Over,memegoddess.replacestuff
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Terraforming Devices,Deep Water Injector,Pump_WaterDeep,Pump_WaterDeep,tug.terraformerpumps
+Terraforming Devices,Deep Water Pump,Pump_WaterShallow,Pump_WaterShallow,tug.terraformerpumps
+Terraforming Devices,Moisture Injector,Pump_TerrainToShallowWater,Pump_TerrainToShallowWater,tug.terraformerpumps
+Terraforming Devices,Rich Soil Injector,Pump_SoilRich,Pump_SoilRich,tug.terraformerpumps
+Terraforming Devices,Soil Injector,Pump_SoilStabilizer,Pump_SoilStabilizer,tug.terraformerpumps
+Terraforming Devices,Stony Soil Injector,Pump_GravelInjector,Pump_GravelInjector,tug.terraformerpumps
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Toxlamps,FloodLight,ToxLamps_FloodLight,ToxLamps_FloodLight,koni.misc.toxlamps
+Toxlamps,Floor Lamp,ToxLamps_FloorLamp,ToxLamps_FloorLamp,koni.misc.toxlamps
+Toxlamps,Standing Lamp,ToxLamps_StandingLamp,ToxLamps_StandingLamp,koni.misc.toxlamps
+Toxlamps,Wall Lamp,ToxLamps_WallLamp,ToxLamps_WallLamp,koni.misc.toxlamps
+,,,,
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Useful Ancient Junk,Ancient Lamp,AncientLamp,AncientLamp,flynt.usableancientprops
+Useful Ancient Junk,Ancient Wall Lamp,AncientWallLamp,AncientWallLamp,flynt.usableancientprops
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Vanilla Furniture Expanded,Animal Sarcophagus,VFE_AnimalSarcophagus,VFE_AnimalSarcophagus,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Bench,Seat_Bench,Seat_Bench,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Coffee Table,VFE_CoffeeTable,VFE_CoffeeTable,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Counter,Table_Counter,Table_Counter,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Desk Lamp,VFE_DeskLamp,VFE_DeskLamp,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Ergonomic Chair,Seat_ModernChair,Seat_ModernChair,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Firepit,Stone_Campfire,Stone_Campfire,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Floor Lamp,VFE_FloorLamp,VFE_FloorLamp,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Long Plant Pot,VFE_LongPlantPot,VFE_LongPlantPot,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Lounger,VFE_Lounger,VFE_Lounger,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Modular Couch,VFE_ModularCouch,VFE_ModularCouch,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Armchair,Seat_RoyalArmchair,Seat_RoyalArmchair,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Chair,Seat_RoyalChair,Seat_RoyalChair,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Table (1x1),Table_Royal1x1c,Table_Royal1x1c,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Table (1x2),Table_Royal1x2c,Table_Royal1x2c,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Table (2x2),Table_Royal2x2c,Table_Royal2x2c,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Table (2x4),Table_Royal2x4c,Table_Royal2x4c,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Royal Table (3x3),Table_Royal3x3c,Table_Royal3x3c,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,School Chair,Seat_SquareChair,Seat_SquareChair,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Sitting Cushion,Seat_Cushion,Seat_Cushion,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Streetlamp,Light_Streetlamp,Light_Streetlamp,vanillaexpanded.vfecore
+Vanilla Furniture Expanded,Table (1x1),Table_1x1c,Table_1x1c,vanillaexpanded.vfecore
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Vanilla Expanded Farming,Sprinkler,VFE_Sprinkler,VFE_Sprinkler,vanillaexpanded.vfefarming
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Vanilla Expanded Power,Advanced Geothermal Generator,VPE_AdvancedGeothermalGenerator,VPE_AdvancedGeothermalGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Advanced Solar Generator,VFE_AdvancedSolarGenerator,VFE_AdvancedSolarGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Advanced Watermill Generator,VFE_AdvancedWatermillGenerator,VFE_AdvancedWatermillGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Advanced Wind Turbine,VFE_AdvancedWindTurbine,VFE_AdvancedWindTurbine,vanillaexpanded.vfepower
+Vanilla Expanded Power,Industrial Chemfuel-Powered Generator,VFE_IndustrialChemfuelPoweredGenerator,VFE_IndustrialChemfuelPoweredGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Industrial Wood-Fired Generator,VFE_IndustrialWoodFiredGenerator,VFE_IndustrialWoodFiredGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Portable Chemfuel-Powered Generator,VFE_PortableChemfuelPoweredGenerator,VFE_PortableChemfuelPoweredGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Portable Wood-Fired Generator,VFE_PortableWoodFiredGenerator,VFE_PortableWoodFiredGenerator,vanillaexpanded.vfepower
+Vanilla Expanded Power,Tidal Generator,VFE_TidalGenerator,VFE_TidalGenerator,vanillaexpanded.vfepower
+,,,,
+Mod Name,Label,Defname,Key,May Require
+Vanilla Expanded Spacer,Advanced Chair,Seat_AdvChair,Seat_AdvChair,vanillaexpanded.vfespacer
+Vanilla Expanded Spacer,Modern Armchair,VFES_ModernArmchair,VFES_ModernArmchair,vanillaexpanded.vfespacer
+Vanilla Expanded Spacer,Modern Couch,VFES_ModernCouch,VFES_ModernCouch,vanillaexpanded.vfespacer
+Vanilla Expanded Spacer,Spacer Outdoor Lamp,Spacer_OutdoorLamp,Spacer_OutdoorLamp,vanillaexpanded.vfespacer

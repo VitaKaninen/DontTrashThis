@@ -1,0 +1,2396 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<modId>Vita.DontTrashThis</modId>
+		<label>Don't Trash This</label>
+		<defaultSpacing>3</defaultSpacing>
+		
+		<settings>
+			<li Class="XmlExtensions.Setting.Gap">
+				<spacing>50</spacing>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Add a check beside things you do not want enemies to target</text>
+				<font>Medium</font>
+				<anchor>Middle</anchor>
+			</li>
+			<li Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Game must be restarted for any changes to take effect!</text>
+				<anchor>Middle</anchor>
+				<color>255,0,0</color>
+			</li>
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			
+			<!-- ================= Vanilla Buildings ================= -->
+
+			<li Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Vanilla Buildings</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Armchair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Armchair</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Battery</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Battery</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Bedroll</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Bedroll</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BilliardsTable</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Billiards Table</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Campfire</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Campfire</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ChemfuelPoweredGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Chemfuel Powered Generator</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ChessTable</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Chess Table</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Cooler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Cooler</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Couch</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Couch</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DeepDrill</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Deep Drill</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DiningChair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Dining Chair</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BedrollDouble</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Double Bedroll</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ElectricCrematorium</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Electric Crematorium</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>FlatscreenTelevision</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Flatscreen Television</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>FloodLight</key>
+						<defaultValue>true</defaultValue>
+						<color>255,255,255</color>
+						<label>Flood Light</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GameOfUrBoard</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Game of Ur</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GeothermalGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Geothermal Generator</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GroundPenetratingScanner</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Ground Penetrating Scanner</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Harp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Harp</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>HoopstoneRing</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Hoopstone Ring</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>HorseshoesPin</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Horseshoes Pin</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>HydroponicsBasin</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Hydroponics Basin</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>LongRangeMineralScanner</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Long Range Mineral Scanner</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>MegascreenTelevision</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Megascreen Television</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>MoisturePump</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Moisture Pump</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>OrbitalTradeBeacon</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Orbital Trade Beacon</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PlantPot</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Plant pot</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Poker Table</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Poker Table</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PowerSwitch</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Power Switch</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Sarcophagus</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sarcophagus</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SolarGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Solar Generator</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>StandingLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Standing Lamp</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>TableStonecutter</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Stonecutter Table</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SunLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sun Lamp</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table1x2c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (1x2)</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table2x2c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (2x2)</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table2x4c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (2x4)</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table3x3c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (3x3)</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Telescope</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Telescope</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>TorchLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Torch Lamp</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>TorchWallLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Torch Wall Lamp</label>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>TubeTelevision</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Tube Television</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Vent</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Vent</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WallLamp</key>
+						<defaultValue>true</defaultValue>
+						<color>255,255,255</color>
+						<label>Wall Lamp</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WatermillGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Watermill Generator</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WindTurbine</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wind Turbine</label>
+					</li>
+
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WoodFiredGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>WoodFired Generator</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Royalty ================= -->
+
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Royalty</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="Ludeon.RimWorld.Royalty" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ShipLandingBeacon</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Ship Landing Beacon</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Ideology ================= -->
+
+			<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Ideology</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Autobong</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Autobong</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Burnbong</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Burnbong</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>CannibalPlatter</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Cannibal Platter</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ChristmasTree</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Christmas Tree</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Darktorch</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Darktorch</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DarktorchFungus</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Fungus Darktorch</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Effigy</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Effigy</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GibbetCage</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Gibbet Cage</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pyre</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Pyre</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SacrificialFlag</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sacrificial Flag</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Skullspike</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Skullspike</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Ideology" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Styling Station</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Styling Station</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Biotech ================= -->
+
+			<li MayRequire="Ludeon.RimWorld.Biotech" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Biotech</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="Ludeon.RimWorld.Biotech" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToxifierGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Toxifier Generator</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Anomaly ================= -->
+
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Anomaly</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>AtmosphericHeater</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Atmospheric Heater</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BioferriteGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Bioferrite Generator</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ProximityDetector</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Proximity Detector</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ShardBeacon</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Shard Beacon</label>
+					</li>
+
+					<li MayRequire="Ludeon.RimWorld.Anomaly" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VoidSculpture</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Void Sculpture</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Advanced Power Plus ================= -->
+
+			<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Advanced Power Plus</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ASRG</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Stirling Radioisotope Generator</label>
+					</li>
+
+					<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>large_ASRG</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Large Advanced Stirling Radioisotope Generator</label>
+					</li>
+
+					<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>sd_adv_powergen_adv_geothermal_generator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Geothermal Generator</label>
+					</li>
+
+					<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>sd_adv_powergen_adv_solar_generator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Solar Generator</label>
+					</li>
+
+					<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>sd_adv_powergen_WatermillGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Watermill Generator</label>
+					</li>
+
+					<li MayRequire="meltup.advancedpowerplus" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>sd_adv_powergen_adv_wind_turbine</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Wind Turbine</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Billed Deep Drill ================= -->
+
+			<li MayRequire="buggy.rimworld.billeddeepdrill" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="buggy.rimworld.billeddeepdrill" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Billed Deep Drill</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="buggy.rimworld.billeddeepdrill" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BilledDeepDrill</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Billed Deep Drill</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Camping Tent ================= -->
+
+			<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Camping Tent</label>
+				<tooltip>https://steamcommunity.com/sharedfiles/filedetails/?id=????</tooltip>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Canopy</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Canopy</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WoodenCanopy</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wooden Canopy</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Teepee</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Teepee</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Tent</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Tent</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VikingTent</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Viking Tent</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ModernTent</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Modern Tent</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>FoldingTent</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Folding Tent</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>CampingLuggages</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Camping Luggage</label>
+					</li>
+
+					<li MayRequire="Aoba.Tent" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WoodPile</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wood Pile</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Chemfuel Flood Light ================= -->
+
+			<li MayRequire="titaniusrex.chemfuelfloodlight" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="titaniusrex.chemfuelfloodlight" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Chemfuel Flood Light</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="titaniusrex.chemfuelfloodlight" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ChemfuelFloodLight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Fueled Street Lamp</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= [CF] Chemfuel Powered Deepdrill ================= -->
+
+			<li MayRequire="cf.chempowereddeepdrill" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="cf.chempowereddeepdrill" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>[CF] Chemfuel Powered Deepdrill</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="cf.chempowereddeepdrill" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Thek_ChemfuelGeneratorDeepdrill</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Chemfuel Generator + DeepDrill</label>
+					</li>
+
+				</settings>
+			</li>
+
+			<!-- ================= Dubs Bad Hygiene ================= -->
+
+			<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Dubs Bad Hygiene</label>
+				<tooltip>https://steamcommunity.com/sharedfiles/filedetails/?id=1962170825</tooltip>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToiletAdv</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Toilet</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>AirConOutdoorUnit</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Air-con Outdoor Unit</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>airPipe</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Air-Con Pipe</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BasinStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Basin</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BathMat</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Bath Mat</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BathtubStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Bathtub</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BiosolidsComposter</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Biosolids Composter</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>BurnPit</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Burn Pit</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>CryogenicExtractionNode</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Cryogenic Extraction Node</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DeepWaterWellInlet</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Deep Water Well</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ElectricBoiler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Electric Boiler</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ElectricPump</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Electric Pump</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DBHSaunaHeaterElec</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Electric Sauna Heater</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>FireSprinkler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Fire Sprinkler</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Fountain</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Fountain</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DBHSaunaHeaterLog</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Fueled Sauna Heater</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GasBoiler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Gas Boiler</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GeothermHeater</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Geothermal Heater</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>HotTub</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Hot Tub</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>HotWaterTank</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Hot Water Tank</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterTowerL</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Huge Water Tower</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>IrrigationSprinkler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Irrigation Sprinkler</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>KitchenSink</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Kitchen Sink</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PitLatrine</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Latrine</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>LitterBox</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Litter Box</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>LogBoiler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Log Boiler</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>sewagePipeStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Plumbing</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>plumbingValve</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>PlumbingValve</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ShowerAdvStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Power Shower</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PrimitiveWell</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Primitive Well</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PumpingStation</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Pumping Station</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DBHSaunaSeating</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sauna Seating</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SewageSepticTank</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Septic Tank</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SewageDumpPort</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sewage Dump Port</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SewageOutlet</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sewage Outlet</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SewageTreatment</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sewage Treatment</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ShowerStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Shower</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ShowerSimple</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Simple Shower</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToiletAdvStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Smart Toilet</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SolarHeater</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Solar Heater</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SpacerWaterRecoverySystem</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Spacer Water Recovery System</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>DBHSwimmingPool</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Swimming Pool</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToiletStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Toilet</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToiletSpacer</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Vacuum Toilet</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WashingMachine</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Washing Machine</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PetWaterBowl</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Bowl</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterButt</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Butt</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SpacerWaterRecoverySystem</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Recovery System</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterTankSmall</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Tank</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterTowerS</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Tower</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterTreatment</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Treatment</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterTrough</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Trough</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WashBucket</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Tub</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WaterWellInlet</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Water Well</label>
+					</li>
+
+					<li MayRequire="dubwise.dubsbadhygiene" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WindPump</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wind Pump</label>
+					</li>
+
+				</settings>
+			</li>
+		
+			<!-- ================= FirefliesTwo ================= -->
+
+			<li MayRequire="Scurvyez.FirefliesTwo" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="Scurvyez.FirefliesTwo" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>FirefliesTwo</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="Scurvyez.FirefliesTwo" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>FF_JarGlassA</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Firefly in a Jar</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Flood Light with Solar Panel ================= -->
+
+			<li MayRequire="titaniusrex.floodlightwithsolargenerator" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="titaniusrex.floodlightwithsolargenerator" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Flood Light with Solar Panel</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="titaniusrex.floodlightwithsolargenerator" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>FloodLightwithSolarPanel</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Flood Light with Solar Panel</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Garden Light ================= -->
+
+			<li MayRequire="sc.gradenfuniturelight" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="sc.gradenfuniturelight" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Garden Light</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="sc.gradenfuniturelight" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>SC_GardenLight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Garden Light</label>
+					</li>
+				</settings>
+			</li>
+			
+			<!-- ================= Glowbug Jars ================= -->
+
+			<li MayRequire="pineapple.glowbugjars" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="pineapple.glowbugjars" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Glowbug Jars</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="pineapple.glowbugjars" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>GlowbugJars</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>All Glowbug Jar Variants</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Holiday Stuff ================= -->
+
+			<li MayRequire="mlie.hollidaystuff" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="mlie.hollidaystuff" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Holiday Stuff</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="mlie.hollidaystuff" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>HolidayStuff</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>All Holiday Stuff Buildings</label>
+					</li>
+				</settings>
+			</li>
+			
+			<!-- ================= Higher Power ================= -->
+
+			<li MayRequire="leion247612.higherhpower" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="leion247612.higherhpower" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Higher Power</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="leion247612.higherhpower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ChemfuelPoweredGenerator_II</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Chemfuel Powered Generator II</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Lanterns ================= -->
+
+			<li MayRequire="zal.lanterns" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="zal.lanterns" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Lanterns</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+
+					<li MayRequire="zal.lanterns" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Lanterns</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>All Lantern Variants</label>
+					</li>
+				</settings>
+			</li>
+			
+			<!-- ================= Medieval Floodlight ================= -->
+
+			<li MayRequire="salvador143.medievalfloodlight" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="salvador143.medievalfloodlight" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Medieval Floodlight</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="salvador143.medievalfloodlight" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>MedievalFloodlight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Medieval Floodlight</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Medieval Lighting and Heat ================= -->
+
+			<li MayRequire="nunahuralshamikh.lightingandheat" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="nunahuralshamikh.lightingandheat" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Medieval Lighting and Heat</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="nunahuralshamikh.lightingandheat" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>MLH_Lantern</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Lantern</label>
+					</li>
+					<li MayRequire="nunahuralshamikh.lightingandheat" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>MLH_StreetLantern</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Street Lantern</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Night Lights ================= -->
+
+			<li MayRequire="zylle.nightlights" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="zylle.nightlights" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Night Lights</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="zylle.nightlights" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ZNLSmall</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Small Night Light</label>
+					</li>
+					<li MayRequire="zylle.nightlights" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ZNLLarge</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Large Night Light</label>
+					</li>
+					<li MayRequire="zylle.nightlights" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ZNLGrand</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Grand Night Light</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Potlights ================= -->
+
+			<li MayRequire="katana.potlights" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="katana.potlights" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Potlights</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="katana.potlights" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Potlight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Potlight</label>
+					</li>
+					<li MayRequire="katana.potlights" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>WallPotlight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wall Potlight</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Power Poles ================= -->
+
+			<li MayRequire="co.uk.epicguru.rimforgepoles" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="co.uk.epicguru.rimforgepoles" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Power Poles</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="co.uk.epicguru.rimforgepoles" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>RF_PowerPole</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Power Pole</label>
+					</li>
+					<li MayRequire="co.uk.epicguru.rimforgepoles" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>RF_WallConnector</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wall Connector</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Power Poles Extended ================= -->
+
+			<li MayRequire="gy.ppextend" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="gy.ppextend" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Power Poles Extended</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="gy.ppextend" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PP_MPowerPole</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Modern Power Pole</label>
+					</li>
+					<li MayRequire="gy.ppextend" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PP_MPowerPoleLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Modern Power Pole with Lamp</label>
+					</li>
+					<li MayRequire="gy.ppextend" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>PP_PowerPoleLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Power Pole with Lamp</label>
+					</li>
+				</settings>
+			</li>
+			
+			<!-- ================= Replace Stuff - Continued ================= -->
+
+			<li MayRequire="memegoddess.replacestuff" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="memegoddess.replacestuff" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Replace Stuff - Continued</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="memegoddess.replacestuff" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Cooler_Over</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Over-the-wall Cooler</label>
+					</li>
+					<li MayRequire="memegoddess.replacestuff" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Cooler_Over2W</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Over-the-wall Cooler (wide)</label>
+					</li>
+					<li MayRequire="memegoddess.replacestuff" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Vent_Over</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Over-the-wall Vent</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Terraforming Devices ================= -->
+
+			<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Terraforming Devices</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pump_WaterDeep</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Deep Water Injector</label>
+					</li>
+					<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pump_WaterShallow</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Deep Water Pump</label>
+					</li>
+					<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pump_TerrainToShallowWater</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Moisture Injector</label>
+					</li>
+					<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pump_SoilRich</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Rich Soil Injector</label>
+					</li>
+					<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pump_SoilStabilizer</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Soil Injector</label>
+					</li>
+					<li MayRequire="tug.terraformerpumps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Pump_GravelInjector</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Stony Soil Injector</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Toxlamps ================= -->
+
+			<li MayRequire="koni.misc.toxlamps" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="koni.misc.toxlamps" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Toxlamps</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="koni.misc.toxlamps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToxLamps_FloodLight</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>FloodLight</label>
+					</li>
+					<li MayRequire="koni.misc.toxlamps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToxLamps_FloorLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Floor Lamp</label>
+					</li>
+					<li MayRequire="koni.misc.toxlamps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToxLamps_StandingLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Standing Lamp</label>
+					</li>
+					<li MayRequire="koni.misc.toxlamps" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>ToxLamps_WallLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wall Lamp</label>
+					</li>
+				</settings>
+			</li>
+			
+			<!-- ================= Useful Ancient Junk ================= -->
+
+			<li MayRequire="flynt.usableancientprops" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="flynt.usableancientprops" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Useful Ancient Junk</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="flynt.usableancientprops" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>AncientLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Ancient Lamp</label>
+					</li>
+					<li MayRequire="flynt.usableancientprops" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>AncientWallLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Ancient Wall Lamp</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Vanilla Expanded Farming ================= -->
+
+			<li MayRequire="vanillaexpanded.vfefarming" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="vanillaexpanded.vfefarming" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Vanilla Expanded Farming</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="vanillaexpanded.vfefarming" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_Sprinkler</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sprinkler</label>
+					</li>
+				</settings>
+			</li>
+			
+			<!-- ================= Vanilla Furniture Expanded ================= -->
+
+			<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Vanilla Furniture Expanded</label>
+				<tooltip/>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_AnimalSarcophagus</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Animal Sarcophagus</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_Bench</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Bench</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_CoffeeTable</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Coffee Table</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_Counter</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Counter</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_DeskLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Desk Lamp</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_ModernChair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Ergonomic Chair</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Stone_Campfire</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Firepit</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_FloorLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Floor Lamp</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_LongPlantPot</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Long Plant Pot</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_Lounger</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Lounger</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_ModularCouch</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Modular Couch</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_RoyalArmchair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Armchair</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_RoyalChair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Chair</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_Royal1x1c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Table (1x1)</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_Royal1x2c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Table (1x2)</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_Royal2x2c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Table (2x2)</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_Royal2x4c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Table (2x4)</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_Royal3x3c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Royal Table (3x3)</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_SquareChair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>School Chair</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_Cushion</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Sitting Cushion</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Light_Streetlamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Streetlamp</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfecore" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Table_1x1c</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Table (1x1)</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Vanilla Expanded Power ================= -->
+
+			<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Vanilla Expanded Power</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VPE_AdvancedGeothermalGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Geothermal Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_AdvancedSolarGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Solar Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_AdvancedWatermillGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Watermill Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_AdvancedWindTurbine</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Wind Turbine</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_IndustrialChemfuelPoweredGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Industrial Chemfuel-Powered Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_IndustrialWoodFiredGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Industrial Wood-Fired Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_PortableChemfuelPoweredGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Portable Chemfuel-Powered Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_PortableWoodFiredGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Portable Wood-Fired Generator</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfepower" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFE_TidalGenerator</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Tidal Generator</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Vanilla Expanded Spacer ================= -->
+
+			<li MayRequire="vanillaexpanded.vfespacer" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="vanillaexpanded.vfespacer" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>Vanilla Expanded Spacer</label>
+				<tooltip/>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="vanillaexpanded.vfespacer" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Seat_AdvChair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Advanced Chair</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfespacer" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFES_ModernArmchair</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Modern Armchair</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfespacer" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>VFES_ModernCouch</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Modern Couch</label>
+					</li>
+					<li MayRequire="vanillaexpanded.vfespacer" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>Spacer_OutdoorLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Spacer Outdoor Lamp</label>
+					</li>
+				</settings>
+			</li>
+
+			<!-- ================= Reset Button ================= -->
+	
+			<li Class="XmlExtensions.Setting.GapLine"/>
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Game must be restarted for any changes to take effect!</text>
+				<anchor>Middle</anchor>
+				<color>255,0,0</color>
+			</li>
+			<li Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li Class="XmlExtensions.Setting.ResetSettings">
+				<padRight>700</padRight>
+			</li>
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

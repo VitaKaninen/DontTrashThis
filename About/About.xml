@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Don't Trash This</name>
+	<author>VitaKaninen</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>Vita.DontTrashThis</packageId>
+	<description>
+This patch makes a few buildings not targetable by enemies, although they can still be damaged by explosions or missed shots.
+
+I had intended to only have it apply to Flood Lights and Wall Lamps, but I had a feeling that people might want other buildings to be included, so I added a lot of other things.
+
+By default, everything is disabled except for the vanilla Flood Light and Wall Lamp, so if you want other buildings to be ignored by raiders, you will need to toggle them in the mod settings. [url=https://steamcommunity.com/workshop/filedetails/?id=2574315206]XML Extensions[/url] is required to view the mod settings.
+
+[h2]FAQ[/h2]
+[b]Q:[/b] Is this mod safe to add or remove mid-save?
+[b]A:[/b] Yes, it does not modify the save file, so it is safe to add or remove at any time.  If you add it during a raid, it will not make raiders choose a new target automatically.
+
+[b]Q:[/b] What types of buildings are supported?
+[b]A:[/b] Mostly things like lights, generators, moisture pumps, deep drills, power poles and other things that are intended to be placed outdoors.
+
+[b]Q:[/b] Can you add support for my favorite mod, or add a certain vanilla building?
+[b]A:[/b] Depends on what it is. Comment below, and I will see what I can do.  I looked at mods such as Medieval Overhaul, and it seems like nearly every building is intended to be placed outdoors, so I think it defeats the purpose of using that mod if you want to protect everything from raiders.  
+
+[b]Q:[/b] Can you add support for turrets, mortars, or other security buildings or structures.
+[b]A:[/b] No, but you can make a local copy of the mod and add whatever you like to it.
+
+[b]Q:[/b] Does it work in 1.5, 1.4, etc?
+[b]A:[/b] Probably?  Test it and let me know.
+
+[b]Q:[/b] CE?
+[b]A:[/b] Probably not?  Test it and let me know.  I can't do anything about it either way.
+
+[b]Q:[/b] Which mods and buildings are currently supported?
+[b]A:[/b] Below is a list of the mods that are currently supported.  I was going to list out all the specific buildings as well, but it was way too long.  Here is a link to a document showing each mod and which buildings are covered: [url=https://docs.google.com/spreadsheets/d/14ASRt57wBF9cwGJD4xtMsdrWexszKzRtR1cKqiCewsE/edit?usp=sharing]Don't Trash This[/url]
+
+A selection of buildings from:
+Core • Royalty • Ideology • Biotech • Anomaly
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2032409628]Advanced Power Plus[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2593197871]Billed Deep Drill[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2407128339]Camping Tent[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3185083018]Chemfuel Flood Light[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3554926626]Chemfuel Powered Deepdrill[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=836308268]Dubs Bad Hygiene[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3347026598]Fireflies Two[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3185197561]Flood Light with Solar Panel[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2520773186]Garden Light[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3556290113]Glowbug Jars[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2310005890]Holiday Stuff[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1409449372]Higher Power[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3266721359]Lanterns[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3354439077]Medieval Floodlight[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2137870226]Medieval Lighting and Heat[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2149276108]Night Lights[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3544411401]Potlights[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2507086460]Power Poles[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3339142899]Power Poles Extended[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3526354009]Replace Stuff - Cont.[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3406457135]Terraforming Devices[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3166048152]Toxlamps[/url] • [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3536856332]Useful Ancient Junk[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013]Vanilla Exp. - [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1957158779]Farming, [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143]Furniture, [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2062943477]Power, [/url][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079]Spacer[/url]
+	</description>
+	<modDependencies>
+		<li>
+			<packageId>imranfish.xmlextensions</packageId>
+			<displayName>XML Extensions</displayName>
+			<downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>imranfish.xmlextensions</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>meltup.advancedpowerplus</li>
+		<li>buggy.rimworld.billeddeepdrill</li>
+		<li>Aoba.Tent</li>
+		<li>titaniusrex.chemfuelfloodlight</li>
+		<li>cf.chempowereddeepdrill</li>
+		<li>dubwise.dubsbadhygiene</li>
+		<li>Scurvyez.FirefliesTwo</li>
+		<li>titaniusrex.floodlightwithsolargenerator</li>
+		<li>sc.gradenfuniturelight</li>
+		<li>pineapple.glowbugjars</li>
+		<li>mlie.hollidaystuff</li>
+		<li>leion247612.higherhpower</li>
+		<li>zal.lanterns</li>
+		<li>salvador143.medievalfloodlight</li>
+		<li>nunahuralshamikh.lightingandheat</li>
+		<li>zylle.nightlights</li>
+		<li>katana.potlights</li>
+		<li>co.uk.epicguru.rimforgepoles</li>
+		<li>gy.ppextend</li>
+		<li>memegoddess.replacestuff</li>
+		<li>tug.terraformerpumps</li>
+		<li>koni.misc.toxlamps</li>
+		<li>flynt.usableancientprops</li>
+		<li>vanillaexpanded.vfecore</li>
+		<li>vanillaexpanded.vfefarming</li>
+		<li>vanillaexpanded.vfepower</li>
+		<li>vanillaexpanded.vfespacer</li>
+	</loadAfter>
+</ModMetaData>

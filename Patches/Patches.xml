@@ -1,0 +1,4221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ================= Vanilla Items ================= -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Armchair</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Armchair"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Battery</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Battery"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Bedroll</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Bedroll"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>BilliardsTable</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="BilliardsTable"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Campfire</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Campfire"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>ChemfuelPoweredGenerator</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>ChessTable</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="ChessTable"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Cooler</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Cooler"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Couch</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Couch"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>DeepDrill</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="DeepDrill"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>DiningChair</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="DiningChair"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>BedrollDouble</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="BedrollDouble"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>ElectricCrematorium</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="ElectricCrematorium"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>FlatscreenTelevision</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="FlatscreenTelevision"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>FloodLight</key>
+				<defaultValue>true</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="FloodLight"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>GameOfUrBoard</key>
+				<defaultValue>true</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="GameOfUrBoard"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>GeothermalGenerator</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="GeothermalGenerator"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>GroundPenetratingScanner</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="GroundPenetratingScanner"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Harp</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Harp"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>HoopstoneRing</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="HoopstoneRing"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>HorseshoesPin</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="HorseshoesPin"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>HydroponicsBasin</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="HydroponicsBasin"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>LongRangeMineralScanner</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="LongRangeMineralScanner"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>MegascreenTelevision</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="MegascreenTelevision"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>MoisturePump</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="MoisturePump"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>OrbitalTradeBeacon</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="OrbitalTradeBeacon"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>PlantPot</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="PlantPot"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>PokerTable</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="PokerTable"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>PowerSwitch</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="PowerSwitch"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Sarcophagus</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Sarcophagus"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>SolarGenerator</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="SolarGenerator"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>StandingLamp</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="StandingLamp"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>TableStonecutter</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="TableStonecutter"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>SunLamp</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="SunLamp"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Table1x2c</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Table1x2c"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Table2x2c</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Table2x2c"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Table2x4c</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Table2x4c"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Table3x3c</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Table3x3c"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Telescope</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Telescope"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>TorchLamp</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="TorchLamp"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>TorchWallLamp</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="TorchWallLamp"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+			
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>TubeTelevision</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="TubeTelevision"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>Vent</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="Vent"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>WallLamp</key>
+				<defaultValue>true</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="WallLamp"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>WatermillGenerator</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="WatermillGenerator"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>WindTurbine</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="WindTurbine"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+			<li Class="XmlExtensions.OptionalPatch">
+				<modId>Vita.DontTrashThis</modId>
+				<key>WoodFiredGenerator</key>
+				<defaultValue>false</defaultValue>
+				<caseTrue>
+					<Operation Class="PatchOperationAdd">
+						<xpath>Defs/ThingDef[defName="WoodFiredGenerator"]</xpath>
+						<value>
+							<building>
+								<ai_neverTrashThis>true</ai_neverTrashThis>
+								<isTargetable>false</isTargetable>
+							</building>
+						</value>
+					</Operation>
+				</caseTrue>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<!-- ================= Royalty ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ShipLandingBeacon</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ShipLandingBeacon"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Ideology ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ideology</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Autobong</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Autobong"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Burnbong</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Burnbong"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>CannibalPlatter</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="CannibalPlatter"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ChristmasTree</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ChristmasTree"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Darktorch</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Darktorch"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>DarktorchFungus</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="DarktorchFungus"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Effigy</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Effigy"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>GibbetCage</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="GibbetCage"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pyre</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pyre"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SacrificialFlag</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SacrificialFlag"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Skullspike</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Skullspike"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>StylingStation</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="StylingStation"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Biotech ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToxifierGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToxifierGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Anomaly ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Anomaly</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>AtmosphericHeater</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="AtmosphericHeater"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BioferriteGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BioferriteGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ProximityDetector</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ProximityDetector"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ShardBeacon</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ShardBeacon"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VoidSculpture</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VoidSculpture"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Advanced Power Plus ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Advanced Power Plus</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ASRG</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ASRG"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>large_ASRG</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="large_ASRG"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>sd_adv_powergen_adv_geothermal_generator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="sd_adv_powergen_adv_geothermal_generator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>sd_adv_powergen_adv_solar_generator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="sd_adv_powergen_adv_solar_generator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>sd_adv_powergen_WatermillGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="sd_adv_powergen_WatermillGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>sd_adv_powergen_adv_wind_turbine</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="sd_adv_powergen_adv_wind_turbine"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Billed Deep Drill ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Billed Deep Drill</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BilledDeepDrill</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BilledDeepDrill"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+<!-- ================= Camping Tent ================= -->
+
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Camping Tent</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <operations>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>Canopy</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="Canopy"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>WoodenCanopy</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="WoodenCanopy"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>Teepee</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="Teepee"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>Tent</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="Tent"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>VikingTent</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="VikingTent"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>ModernTent</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="ModernTent"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>FoldingTent</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="FoldingTent"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>CampingLuggages</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="CampingLuggages"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+            <li Class="XmlExtensions.OptionalPatch">
+                <modId>Vita.DontTrashThis</modId>
+                <key>WoodPile</key>
+                <defaultValue>false</defaultValue>
+                <caseTrue>
+                    <Operation Class="PatchOperationAdd">
+                        <xpath>Defs/ThingDef[defName="WoodPile"]</xpath>
+                        <value>
+                            <building>
+                                <ai_neverTrashThis>true</ai_neverTrashThis>
+                                <isTargetable>false</isTargetable>
+                            </building>
+                        </value>
+                    </Operation>
+                </caseTrue>
+            </li>
+
+        </operations>
+    </match>
+</Operation>
+
+	<!-- ================= Chemfuel Flood Light ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Chemfuel Flood Light</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ChemfuelFloodLight</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ChemfuelFloodLight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= [CF] Chemfuel Powered Deepdrill ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[CF] Chemfuel Powered Deepdrill</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Thek_ChemfuelGeneratorDeepdrill</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Thek_ChemfuelGeneratorDeepdrill"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Dubs Bad Hygiene ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Dubs Bad Hygiene</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToiletAdv</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToiletAdv"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>AirConOutdoorUnit</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="AirConOutdoorUnit"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>airPipe</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="airPipe"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BasinStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BasinStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BathMat</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BathMat"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BathtubStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BathtubStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BiosolidsComposter</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BiosolidsComposter"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>BurnPit</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="BurnPit"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>CryogenicExtractionNode</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="CryogenicExtractionNode"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>DeepWaterWellInlet</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="DeepWaterWellInlet"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ElectricBoiler</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ElectricBoiler"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ElectricPump</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ElectricPump"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>DBHSaunaHeaterElec</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="DBHSaunaHeaterElec"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>FireSprinkler</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FireSprinkler"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Fountain</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Fountain"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>DBHSaunaHeaterLog</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="DBHSaunaHeaterLog"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>GasBoiler</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="GasBoiler"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>GeothermHeater</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="GeothermHeater"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>HotTub</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HotTub"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>HotWaterTank</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HotWaterTank"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterTowerL</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterTowerL"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>IrrigationSprinkler</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="IrrigationSprinkler"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>KitchenSink</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="KitchenSink"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PitLatrine</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PitLatrine"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>LitterBox</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="LitterBox"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>LogBoiler</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="LogBoiler"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>sewagePipeStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="sewagePipeStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>plumbingValve</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="plumbingValve"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ShowerAdvStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ShowerAdvStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PrimitiveWell</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PrimitiveWell"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PumpingStation</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PumpingStation"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>DBHSaunaSeating</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="DBHSaunaSeating"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SewageSepticTank</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SewageSepticTank"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SewageDumpPort</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SewageDumpPort"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SewageOutlet</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SewageOutlet"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SewageTreatment</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SewageTreatment"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ShowerStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ShowerStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ShowerSimple</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ShowerSimple"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToiletAdvStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToiletAdvStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SolarHeater</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SolarHeater"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SpacerWaterRecoverySystem</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SpacerWaterRecoverySystem"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>DBHSwimmingPool</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="DBHSwimmingPool"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToiletStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToiletStuff"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToiletSpacer</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToiletSpacer"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WashingMachine</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WashingMachine"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PetWaterBowl</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PetWaterBowl"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterButt</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterButt"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SpacerWaterRecoverySystem</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SpacerWaterRecoverySystem"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterTankSmall</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterTankSmall"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterTowerS</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterTowerS"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterTreatment</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterTreatment"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterTrough</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterTrough"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WashBucket</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WashBucket"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WaterWellInlet</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WaterWellInlet"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WindPump</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WindPump"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= FirefliesTwo ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>FirefliesTwo</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>FF_JarGlassA</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FF_JarGlassA"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Flood Light with Solar Panel ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Flood Light with Solar Panel</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>FloodLightwithSolarPanel</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanelCent"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanelRevers"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanelLeftSmool"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanel"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanelRightSmool"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanelTopFull"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="FloodLightWithSolarPanelTopSingle"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Garden Light ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Garden Light</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>SC_GardenLight</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SC_GardenLight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Glowbug Jars ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Glowbug Jars</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>GlowbugJars</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_FungalBugJar"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJar_Amethyst"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJar_Azure"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJar_Crimson"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJar_Gold"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJar_Lime"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJar_Rose"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJars"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MFM_GlowbugJars_Warm"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Holliday Stuff ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Holliday Stuff</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>HolidayStuff</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HollidayLight_Blue"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HollidayLight_Green"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HollidayLight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HollidayLight_Red"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="HollidayChristmasTree"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Higher Power ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Higher Power</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ChemfuelPoweredGenerator_II</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ChemfuelPoweredGenerator_II"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="GeothermalGenerator_II"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="SolarGenerator_II"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToxifierGenerator_II"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WatermillGenerator_II"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WindTurbine_II"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Lanterns (Continued) ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Lanterns (Continued)</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Lanterns</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternMixede"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternRedE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternWhiteE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternYellowE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternMixed"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternMixedRE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternMixedR"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternRed"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternRedSE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternRedS"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternWhiteSE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternWhiteS"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternYellowSE"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternYellowS"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternWhite"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ErokLanternYellow"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Medieval Floodlight ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Floodlight</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>MedievalFloodlight</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MedievalFloodlight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Medieval Lighting and Heat ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Lighting and Heat</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>MLH_Lantern</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MLH_Lantern"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>MLH_StreetLantern</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="MLH_StreetLantern"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Night Lights ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Night Lights</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ZNLSmall</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ZNLSmall"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ZNLLarge</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ZNLLarge"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ZNLGrand</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ZNLGrand"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Potlights ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Potlights</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Potlight</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Potlight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>WallPotlight</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="WallPotlight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Power Poles ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Power Poles</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>RF_PowerPole</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="RF_PowerPole"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>RF_WallConnector</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="RF_WallConnector"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Power Poles Extended ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Power Poles Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PP_MPowerPole</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PP_MPowerPole"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PP_MPowerPoleLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PP_MPowerPoleLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>PP_PowerPoleLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="PP_PowerPoleLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Replace Stuff - Continued ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Replace Stuff - Continued</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Cooler_Over</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Cooler_Over"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Cooler_Over2W</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Cooler_Over2W"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Vent_Over</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Vent_Over"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Terraforming Devices ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Terraforming Devices</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pump_WaterDeep</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pump_WaterDeep"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pump_WaterShallow</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pump_WaterShallow"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pump_TerrainToShallowWater</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pump_TerrainToShallowWater"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pump_SoilRich</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pump_SoilRich"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pump_SoilStabilizer</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pump_SoilStabilizer"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Pump_GravelInjector</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Pump_GravelInjector"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Toxlamps ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Toxlamps</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToxLamps_FloodLight</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToxLamps_FloodLight"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToxLamps_FloorLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToxLamps_FloorLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToxLamps_StandingLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToxLamps_StandingLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>ToxLamps_WallLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="ToxLamps_WallLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Useful Anicent Junk ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Useful Anicent Junk</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>AncientLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="AncientLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>AncientWallLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="AncientWallLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Vanilla Furniture Expanded - Farming ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Farming</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_Sprinkler</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_Sprinkler"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Vanilla Furniture Expanded ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_AnimalSarcophagus</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_AnimalSarcophagus"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_Bench</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_Bench"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_CoffeeTable</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_CoffeeTable"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_Counter</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_Counter"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_DeskLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_DeskLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_ModernChair</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_ModernChair"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Stone_Campfire</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Stone_Campfire"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_FloorLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_FloorLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_LongPlantPot</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_LongPlantPot"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_Lounger</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_Lounger"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_ModularCouch</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_ModularCouch"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_RoyalArmchair</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_RoyalArmchair"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_RoyalChair</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_RoyalChair"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_Royal1x1c</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_Royal1x1c"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_Royal1x2c</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_Royal1x2c"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_Royal2x2c</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_Royal2x2c"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_Royal2x4c</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_Royal2x4c"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_Royal3x3c</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_Royal3x3c"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_SquareChair</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_SquareChair"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_Cushion</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_Cushion"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Light_Streetlamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Light_Streetlamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Table_1x1c</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Table_1x1c"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Vanilla Furniture Expanded - Power ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Power</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VPE_AdvancedGeothermalGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VPE_AdvancedGeothermalGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_AdvancedSolarGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_AdvancedSolarGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_AdvancedWatermillGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_AdvancedWatermillGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_AdvancedWindTurbine</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_AdvancedWindTurbine"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_IndustrialChemfuelPoweredGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_IndustrialChemfuelPoweredGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_IndustrialWoodFiredGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_IndustrialWoodFiredGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_PortableChemfuelPoweredGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_PortableChemfuelPoweredGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_PortableWoodFiredGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_PortableWoodFiredGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFE_TidalGenerator</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFE_TidalGenerator"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<!-- ================= Vanilla Furniture Expanded - Spacer Module ================= -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Spacer Module</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Seat_AdvChair</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Seat_AdvChair"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFES_ModernArmchair</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFES_ModernArmchair"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>VFES_ModernCouch</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="VFES_ModernCouch"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+				<li Class="XmlExtensions.OptionalPatch">
+					<modId>Vita.DontTrashThis</modId>
+					<key>Spacer_OutdoorLamp</key>
+					<defaultValue>false</defaultValue>
+					<caseTrue>
+						<Operation Class="PatchOperationAdd">
+							<xpath>Defs/ThingDef[defName="Spacer_OutdoorLamp"]</xpath>
+							<value>
+								<building>
+									<ai_neverTrashThis>true</ai_neverTrashThis>
+									<isTargetable>false</isTargetable>
+								</building>
+							</value>
+						</Operation>
+					</caseTrue>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+</Patch>
