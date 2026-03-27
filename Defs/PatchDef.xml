@@ -9,7 +9,7 @@
 		</parameters>
 		<apply>
 			<Operation Class="XmlExtensions.OptionalPatch">
-				<modId>Vita.DontTrashThisTemp</modId>
+				<modId>Vita.DontTrashThis</modId>
 				<key>{key}</key>
 				<defaultValue>{defaultValue}</defaultValue>
 				<caseTrue>

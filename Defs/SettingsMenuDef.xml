@@ -1839,6 +1839,46 @@
 				</settings>
 			</li>
 			
+			<!-- ================= ReBuild: Doors and Corners ================= -->
+
+			<li MayRequire="ReBuild.COTR.DoorsAndCorners" Class="XmlExtensions.Setting.Gap">
+				<spacing>10</spacing>
+			</li>
+			<li MayRequire="ReBuild.COTR.DoorsAndCorners" Class="XmlExtensions.Setting.CollapsibleSettings">
+				<label>ReBuild: Doors and Corners</label>
+				<headerFont>Medium</headerFont>
+				<defaultState>Closed</defaultState>
+				<color>22,128,64</color>
+				<padLeft>50</padLeft>
+				<anchor>Left</anchor>
+				<settings>
+					<li MayRequire="ReBuild.COTR.DoorsAndCorners" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>RB_Fireplace</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Fireplace</label>
+					</li>
+					<li MayRequire="ReBuild.COTR.DoorsAndCorners" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>RB_FloorLamp</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Floor Lamp</label>
+					</li>
+					<li MayRequire="ReBuild.COTR.DoorsAndCorners" Class="XmlExtensions.Setting.Checkbox">
+						<padLeft>100</padLeft>
+						<padRight>150</padRight>
+						<key>RB_OverwallArmor</key>
+						<defaultValue>false</defaultValue>
+						<color>255,255,255</color>
+						<label>Wall Armor</label>
+					</li>
+				</settings>
+			</li>
+
 			<!-- ================= Replace Stuff - Continued ================= -->
 
 			<li MayRequire="memegoddess.replacestuff" Class="XmlExtensions.Setting.Gap">

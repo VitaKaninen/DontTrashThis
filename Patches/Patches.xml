@@ -1990,6 +1990,42 @@
 	</match>
 </Operation>
 	
+<!-- ================= ReBuild: Doors and Corners ================= -->
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>ReBuild: Doors and Corners</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>RB_Fireplace</li>
+					<li>RB_Fireplace</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>RB_FloorLamp</li>
+					<li>RB_FloorLamp</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>RB_OverwallArmor</li>
+					<li>RB_OverwallArmor</li>
+					<li>false</li>
+				</arguments>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
 <!-- ================= Replace Stuff - Continued ================= -->
 
 <Operation Class="PatchOperationFindMod">
