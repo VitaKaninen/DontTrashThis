@@ -1320,75 +1320,61 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
-			<li Class="XmlExtensions.OptionalPatch">
-				<modId>Vita.DontTrashThis</modId>
-				<key>FloodLightwithSolarPanel</key>
-				<defaultValue>false</defaultValue>
-				<caseTrue>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanelCent"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanelRevers"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanelLeftSmool"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanel"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanelRightSmool"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanelTopFull"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="FloodLightWithSolarPanelTopSingle"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-				</caseTrue>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanelCent</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanelRevers</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanelLeftSmool</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanel</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanelRightSmool</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanelTopFull</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>FloodLightwithSolarPanel</li>
+					<li>FloodLightWithSolarPanelTopSingle</li>
+					<li>false</li>
+				</arguments>
 			</li>
 		</operations>
 	</match>
@@ -1422,93 +1408,77 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
-			<li Class="XmlExtensions.OptionalPatch">
-				<modId>Vita.DontTrashThis</modId>
-				<key>GlowbugJars</key>
-				<defaultValue>false</defaultValue>
-				<caseTrue>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_FungalBugJar"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJar_Amethyst"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJar_Azure"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJar_Crimson"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJar_Gold"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJar_Lime"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJar_Rose"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJars"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="MFM_GlowbugJars_Warm"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-				</caseTrue>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_FungalBugJar</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJar_Amethyst</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJar_Azure</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJar_Crimson</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJar_Gold</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJar_Lime</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJar_Rose</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJars</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>GlowbugJars</li>
+					<li>MFM_GlowbugJars_Warm</li>
+					<li>false</li>
+				</arguments>
 			</li>
 		</operations>
 	</match>
@@ -1522,57 +1492,45 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
-			<li Class="XmlExtensions.OptionalPatch">
-				<modId>Vita.DontTrashThis</modId>
-				<key>HolidayStuff</key>
-				<defaultValue>false</defaultValue>
-				<caseTrue>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="HollidayLight_Blue"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="HollidayLight_Green"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="HollidayLight"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="HollidayLight_Red"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="HollidayChristmasTree"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-				</caseTrue>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>HolidayStuff</li>
+					<li>HollidayLight_Blue</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>HolidayStuff</li>
+					<li>HollidayLight_Green</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>HolidayStuff</li>
+					<li>HollidayLight</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>HolidayStuff</li>
+					<li>HollidayLight_Red</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>HolidayStuff</li>
+					<li>HollidayChristmasTree</li>
+					<li>false</li>
+				</arguments>
 			</li>
 		</operations>
 	</match>
@@ -1586,66 +1544,53 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
-			<li Class="XmlExtensions.OptionalPatch">
-				<modId>Vita.DontTrashThis</modId>
-				<key>ChemfuelPoweredGenerator_II</key>
-				<defaultValue>false</defaultValue>
-				<caseTrue>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ChemfuelPoweredGenerator_II"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="GeothermalGenerator_II"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="SolarGenerator_II"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ToxifierGenerator_II"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="WatermillGenerator_II"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="WindTurbine_II"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-				</caseTrue>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>GeothermalGenerator_II</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>SolarGenerator_II</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>ToxifierGenerator_II</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>WatermillGenerator_II</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>ChemfuelPoweredGenerator_II</li>
+					<li>WindTurbine_II</li>
+					<li>false</li>
+				</arguments>
 			</li>
 		</operations>
 	</match>
@@ -1659,156 +1604,133 @@
 	</mods>
 	<match Class="PatchOperationSequence">
 		<operations>
-			<li Class="XmlExtensions.OptionalPatch">
-				<modId>Vita.DontTrashThis</modId>
-				<key>Lanterns</key>
-				<defaultValue>false</defaultValue>
-				<caseTrue>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternMixede"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternRedE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternWhiteE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternYellowE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternMixed"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternMixedRE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternMixedR"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternRed"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternRedSE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternRedS"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternWhiteSE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternWhiteS"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternYellowSE"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternYellowS"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternWhite"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-					<Operation Class="PatchOperationAdd">
-						<xpath>Defs/ThingDef[patchName="ErokLanternYellow"]</xpath>
-						<value>
-							<building>
-								<ai_neverTrashThis>true</ai_neverTrashThis>
-								<isTargetable>false</isTargetable>
-							</building>
-						</value>
-					</Operation>
-				</caseTrue>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternMixede</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternRedE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternWhiteE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternYellowE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternMixed</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternMixedRE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternMixedR</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternRed</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternRedSE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternRedS</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternWhiteSE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternWhiteS</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternYellowSE</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternYellowS</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternWhite</li>
+					<li>false</li>
+				</arguments>
+			</li>
+			<li Class="XmlExtensions.ApplyPatch">
+				<patchName>DontTrashThis_PatchBuilding</patchName>
+				<arguments>
+					<li>Lanterns</li>
+					<li>ErokLanternYellow</li>
+					<li>false</li>
+				</arguments>
 			</li>
 		</operations>
 	</match>
