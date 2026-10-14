@@ -8,7 +8,10 @@
 	</supportedVersions>
 	<packageId>Vita.DontTrashThis</packageId>
 	<description>
+Tired of raiders trashing your outdoor furniture instead of attacking your colonists and defenses like civilized folk?
+
 This patch makes a few buildings not targetable by enemies, although they can still be damaged by explosions or missed shots.
+
 
 I had intended to only have it apply to Flood Lights and Wall Lamps, but I had a feeling that people might want other buildings to be included, so I added a lot of other things.
 
@@ -18,20 +21,20 @@ By default, everything is disabled except for the vanilla Flood Light and Wall L
 [b]Q:[/b] Is this mod safe to add or remove mid-save?
 [b]A:[/b] Yes, it does not modify the save file, so it is safe to add or remove at any time.  If you add it during a raid, it will not make raiders choose a new target automatically.
 
-[b]Q:[/b] What types of buildings are supported?
-[b]A:[/b] Mostly things like lights, generators, moisture pumps, deep drills, power poles and other things that are intended to be placed outdoors.
-
 [b]Q:[/b] Can you add support for my favorite mod, or add a certain vanilla building?
 [b]A:[/b] Depends on what it is. Comment below, and I will see what I can do.  I looked at mods such as Medieval Overhaul, and it seems like nearly every building is intended to be placed outdoors, so I think it defeats the purpose of using that mod if you want to protect everything from raiders.  
+
+[b]Q:[/b] What types of buildings are supported?
+[b]A:[/b] Mostly things like lights, generators, moisture pumps, deep drills, power poles and other things that are intended to be placed outdoors.
 
 [b]Q:[/b] Can you add support for turrets, mortars, or other security buildings or structures.
 [b]A:[/b] No, but you can make a local copy of the mod and add whatever you like to it.
 
 [b]Q:[/b] Does it work in 1.5, 1.4, etc?
-[b]A:[/b] Probably?  Test it and let me know.
+[b]A:[/b] Probably.  Test it and let me know.
 
-[b]Q:[/b] CE?
-[b]A:[/b] Probably not?  Test it and let me know.  I can't do anything about it either way.
+[b]Q:[/b] CE compatible?
+[b]A:[/b] Probably not. I can't do anything about it either way.
 
 [b]Q:[/b] Which mods and buildings are currently supported?
 [b]A:[/b] Below is a list of the mods that are currently supported.  I was going to list out all the specific buildings as well, but it was way too long.  Here is a link to a document showing each mod and which buildings are covered: [url=https://docs.google.com/spreadsheets/d/14ASRt57wBF9cwGJD4xtMsdrWexszKzRtR1cKqiCewsE/edit?usp=sharing]Don't Trash This[/url]
