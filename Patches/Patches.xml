@@ -1586,142 +1586,141 @@
 	
 <!-- ================= Lanterns (Continued) ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Lanterns (Continued)</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternMixede</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternRedE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternWhiteE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternYellowE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternMixed</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternMixedRE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternMixedR</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternRed</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternRedSE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternRedS</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternWhiteSE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternWhiteS</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternYellowSE</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternYellowS</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternWhite</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Lanterns</li>
-					<li>ErokLanternYellow</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="zal.lanterns">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternMixede</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternRedE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternWhiteE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternYellowE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternMixed</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternMixedRE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternMixedR</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternRed</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternRedSE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternRedS</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternWhiteSE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternWhiteS</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternYellowSE</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternYellowS</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternWhite</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Lanterns</li>
+						<li>ErokLanternYellow</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Medieval Floodlight ================= -->
@@ -2427,94 +2426,93 @@
 	
 <!-- ================= Wolfein Race ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Wolfein Race</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_FloorLamp</li>
-					<li>Wolfein_FloorLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_NeonPlanter</li>
-					<li>Wolfein_NeonPlanter</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_StreetLight</li>
-					<li>Wolfein_StreetLight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_WallLamp</li>
-					<li>Wolfein_WallLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_Doormat</li>
-					<li>Wolfein_Doormat</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_SurveillanceCamera</li>
-					<li>Wolfein_SurveillanceCamera</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_1x2_Table</li>
-					<li>Wolfein_1x2_Table</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_2x2_Table</li>
-					<li>Wolfein_2x2_Table</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_2x3_Table</li>
-					<li>Wolfein_2x3_Table</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Wolfein_3x3_Table</li>
-					<li>Wolfein_3x3_Table</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="MelonDove.WolfeinRace">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_FloorLamp</li>
+						<li>Wolfein_FloorLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_NeonPlanter</li>
+						<li>Wolfein_NeonPlanter</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_StreetLight</li>
+						<li>Wolfein_StreetLight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_WallLamp</li>
+						<li>Wolfein_WallLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_Doormat</li>
+						<li>Wolfein_Doormat</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_SurveillanceCamera</li>
+						<li>Wolfein_SurveillanceCamera</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_1x2_Table</li>
+						<li>Wolfein_1x2_Table</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_2x2_Table</li>
+						<li>Wolfein_2x2_Table</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_2x3_Table</li>
+						<li>Wolfein_2x3_Table</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Wolfein_3x3_Table</li>
+						<li>Wolfein_3x3_Table</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <Operation Class="XmlExtensions.MergeDocument">
