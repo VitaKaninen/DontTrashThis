@@ -638,962 +638,950 @@
 	
 <!-- ================= Advanced Power Plus ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Advanced Power Plus</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ASRG</li>
-					<li>ASRG</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>large_ASRG</li>
-					<li>large_ASRG</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>sd_adv_powergen_adv_geothermal_generator</li>
-					<li>sd_adv_powergen_adv_geothermal_generator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>sd_adv_powergen_adv_solar_generator</li>
-					<li>sd_adv_powergen_adv_solar_generator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>sd_adv_powergen_WatermillGenerator</li>
-					<li>sd_adv_powergen_WatermillGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>sd_adv_powergen_adv_wind_turbine</li>
-					<li>sd_adv_powergen_adv_wind_turbine</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="meltup.advancedpowerplus">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ASRG</li>
+						<li>ASRG</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>large_ASRG</li>
+						<li>large_ASRG</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>sd_adv_powergen_adv_geothermal_generator</li>
+						<li>sd_adv_powergen_adv_geothermal_generator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>sd_adv_powergen_adv_solar_generator</li>
+						<li>sd_adv_powergen_adv_solar_generator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>sd_adv_powergen_WatermillGenerator</li>
+						<li>sd_adv_powergen_WatermillGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>sd_adv_powergen_adv_wind_turbine</li>
+						<li>sd_adv_powergen_adv_wind_turbine</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Billed Deep Drill ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Billed Deep Drill</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>BilledDeepDrill</li>
-					<li>BilledDeepDrill</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="Buggy.RimWorld.BilledDeepDrill">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>BilledDeepDrill</li>
+						<li>BilledDeepDrill</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Camping Tent ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Camping Tent</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Canopy</li>
-					<li>Canopy</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WoodenCanopy</li>
-					<li>WoodenCanopy</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Teepee</li>
-					<li>Teepee</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Tent</li>
-					<li>Tent</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VikingTent</li>
-					<li>VikingTent</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ModernTent</li>
-					<li>ModernTent</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FoldingTent</li>
-					<li>FoldingTent</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>CampingLuggages</li>
-					<li>CampingLuggages</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WoodPile</li>
-					<li>WoodPile</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="Aoba.Tent">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Canopy</li>
+						<li>Canopy</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WoodenCanopy</li>
+						<li>WoodenCanopy</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Teepee</li>
+						<li>Teepee</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Tent</li>
+						<li>Tent</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VikingTent</li>
+						<li>VikingTent</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ModernTent</li>
+						<li>ModernTent</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FoldingTent</li>
+						<li>FoldingTent</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>CampingLuggages</li>
+						<li>CampingLuggages</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WoodPile</li>
+						<li>WoodPile</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Chemfuel Flood Light ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Chemfuel Flood Light</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelFloodLight</li>
-					<li>ChemfuelFloodLight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="titaniusrex.chemfuelfloodlight">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelFloodLight</li>
+						<li>ChemfuelFloodLight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= [CF] Chemfuel Powered Deepdrill ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>[CF] Chemfuel Powered Deepdrill</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Thek_ChemfuelGeneratorDeepdrill</li>
-					<li>Thek_ChemfuelGeneratorDeepdrill</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="cf.chempowereddeepdrill">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Thek_ChemfuelGeneratorDeepdrill</li>
+						<li>Thek_ChemfuelGeneratorDeepdrill</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Dubs Bad Hygiene ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Dubs Bad Hygiene</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToiletAdv</li>
-					<li>ToiletAdv</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>AirConOutdoorUnit</li>
-					<li>AirConOutdoorUnit</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>airPipe</li>
-					<li>airPipe</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>BasinStuff</li>
-					<li>BasinStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>BathMat</li>
-					<li>BathMat</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>BathtubStuff</li>
-					<li>BathtubStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>BiosolidsComposter</li>
-					<li>BiosolidsComposter</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>BurnPit</li>
-					<li>BurnPit</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>CryogenicExtractionNode</li>
-					<li>CryogenicExtractionNode</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>DeepWaterWellInlet</li>
-					<li>DeepWaterWellInlet</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ElectricBoiler</li>
-					<li>ElectricBoiler</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ElectricPump</li>
-					<li>ElectricPump</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>DBHSaunaHeaterElec</li>
-					<li>DBHSaunaHeaterElec</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FireSprinkler</li>
-					<li>FireSprinkler</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Fountain</li>
-					<li>Fountain</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>DBHSaunaHeaterLog</li>
-					<li>DBHSaunaHeaterLog</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GasBoiler</li>
-					<li>GasBoiler</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GeothermHeater</li>
-					<li>GeothermHeater</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HotTub</li>
-					<li>HotTub</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HotWaterTank</li>
-					<li>HotWaterTank</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterTowerL</li>
-					<li>WaterTowerL</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>IrrigationSprinkler</li>
-					<li>IrrigationSprinkler</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>KitchenSink</li>
-					<li>KitchenSink</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PitLatrine</li>
-					<li>PitLatrine</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>LitterBox</li>
-					<li>LitterBox</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>LogBoiler</li>
-					<li>LogBoiler</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>sewagePipeStuff</li>
-					<li>sewagePipeStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>plumbingValve</li>
-					<li>plumbingValve</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ShowerAdvStuff</li>
-					<li>ShowerAdvStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PrimitiveWell</li>
-					<li>PrimitiveWell</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PumpingStation</li>
-					<li>PumpingStation</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>DBHSaunaSeating</li>
-					<li>DBHSaunaSeating</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SewageSepticTank</li>
-					<li>SewageSepticTank</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SewageDumpPort</li>
-					<li>SewageDumpPort</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SewageOutlet</li>
-					<li>SewageOutlet</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SewageTreatment</li>
-					<li>SewageTreatment</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ShowerStuff</li>
-					<li>ShowerStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ShowerSimple</li>
-					<li>ShowerSimple</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToiletAdvStuff</li>
-					<li>ToiletAdvStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SolarHeater</li>
-					<li>SolarHeater</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SpacerWaterRecoverySystem</li>
-					<li>SpacerWaterRecoverySystem</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>DBHSwimmingPool</li>
-					<li>DBHSwimmingPool</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToiletStuff</li>
-					<li>ToiletStuff</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToiletSpacer</li>
-					<li>ToiletSpacer</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WashingMachine</li>
-					<li>WashingMachine</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PetWaterBowl</li>
-					<li>PetWaterBowl</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterButt</li>
-					<li>WaterButt</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SpacerWaterRecoverySystem</li>
-					<li>SpacerWaterRecoverySystem</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterTankSmall</li>
-					<li>WaterTankSmall</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterTowerS</li>
-					<li>WaterTowerS</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterTreatment</li>
-					<li>WaterTreatment</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterTrough</li>
-					<li>WaterTrough</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WashBucket</li>
-					<li>WashBucket</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WaterWellInlet</li>
-					<li>WaterWellInlet</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WindPump</li>
-					<li>WindPump</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="Dubwise.DubsBadHygiene">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToiletAdv</li>
+						<li>ToiletAdv</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>AirConOutdoorUnit</li>
+						<li>AirConOutdoorUnit</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>airPipe</li>
+						<li>airPipe</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>BasinStuff</li>
+						<li>BasinStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>BathMat</li>
+						<li>BathMat</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>BathtubStuff</li>
+						<li>BathtubStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>BiosolidsComposter</li>
+						<li>BiosolidsComposter</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>BurnPit</li>
+						<li>BurnPit</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>CryogenicExtractionNode</li>
+						<li>CryogenicExtractionNode</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>DeepWaterWellInlet</li>
+						<li>DeepWaterWellInlet</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ElectricBoiler</li>
+						<li>ElectricBoiler</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ElectricPump</li>
+						<li>ElectricPump</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>DBHSaunaHeaterElec</li>
+						<li>DBHSaunaHeaterElec</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FireSprinkler</li>
+						<li>FireSprinkler</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Fountain</li>
+						<li>Fountain</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>DBHSaunaHeaterLog</li>
+						<li>DBHSaunaHeaterLog</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GasBoiler</li>
+						<li>GasBoiler</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GeothermHeater</li>
+						<li>GeothermHeater</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HotTub</li>
+						<li>HotTub</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HotWaterTank</li>
+						<li>HotWaterTank</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterTowerL</li>
+						<li>WaterTowerL</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>IrrigationSprinkler</li>
+						<li>IrrigationSprinkler</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>KitchenSink</li>
+						<li>KitchenSink</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PitLatrine</li>
+						<li>PitLatrine</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>LitterBox</li>
+						<li>LitterBox</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>LogBoiler</li>
+						<li>LogBoiler</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>sewagePipeStuff</li>
+						<li>sewagePipeStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>plumbingValve</li>
+						<li>plumbingValve</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ShowerAdvStuff</li>
+						<li>ShowerAdvStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PrimitiveWell</li>
+						<li>PrimitiveWell</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PumpingStation</li>
+						<li>PumpingStation</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>DBHSaunaSeating</li>
+						<li>DBHSaunaSeating</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SewageSepticTank</li>
+						<li>SewageSepticTank</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SewageDumpPort</li>
+						<li>SewageDumpPort</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SewageOutlet</li>
+						<li>SewageOutlet</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SewageTreatment</li>
+						<li>SewageTreatment</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ShowerStuff</li>
+						<li>ShowerStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ShowerSimple</li>
+						<li>ShowerSimple</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToiletAdvStuff</li>
+						<li>ToiletAdvStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SolarHeater</li>
+						<li>SolarHeater</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SpacerWaterRecoverySystem</li>
+						<li>SpacerWaterRecoverySystem</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>DBHSwimmingPool</li>
+						<li>DBHSwimmingPool</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToiletStuff</li>
+						<li>ToiletStuff</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToiletSpacer</li>
+						<li>ToiletSpacer</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WashingMachine</li>
+						<li>WashingMachine</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PetWaterBowl</li>
+						<li>PetWaterBowl</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterButt</li>
+						<li>WaterButt</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SpacerWaterRecoverySystem</li>
+						<li>SpacerWaterRecoverySystem</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterTankSmall</li>
+						<li>WaterTankSmall</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterTowerS</li>
+						<li>WaterTowerS</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterTreatment</li>
+						<li>WaterTreatment</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterTrough</li>
+						<li>WaterTrough</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WashBucket</li>
+						<li>WashBucket</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WaterWellInlet</li>
+						<li>WaterWellInlet</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WindPump</li>
+						<li>WindPump</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= FirefliesTwo ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>FirefliesTwo</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FF_JarGlassA</li>
-					<li>FF_JarGlassA</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="Scurvyez.FirefliesTwo">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FF_JarGlassA</li>
+						<li>FF_JarGlassA</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Flood Light with Solar Panel ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Flood Light with Solar Panel</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanelCent</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanelRevers</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanelLeftSmool</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanel</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanelRightSmool</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanelTopFull</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>FloodLightwithSolarPanel</li>
-					<li>FloodLightWithSolarPanelTopSingle</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="titaniusrex.floodlightwithsolargenerator">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanelCent</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanelRevers</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanelLeftSmool</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanel</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanelRightSmool</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanelTopFull</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>FloodLightwithSolarPanel</li>
+						<li>FloodLightWithSolarPanelTopSingle</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Garden Light ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Garden Light</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>SC_GardenLight</li>
-					<li>SC_GardenLight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="sc.gradenfuniturelight">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>SC_GardenLight</li>
+						<li>SC_GardenLight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Glowbug Jars ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Glowbug Jars</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_FungalBugJar</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJar_Amethyst</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJar_Azure</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJar_Crimson</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJar_Gold</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJar_Lime</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJar_Rose</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJars</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>GlowbugJars</li>
-					<li>MFM_GlowbugJars_Warm</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="pineapple.glowbugjars">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_FungalBugJar</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJar_Amethyst</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJar_Azure</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJar_Crimson</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJar_Gold</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJar_Lime</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJar_Rose</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJars</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>GlowbugJars</li>
+						<li>MFM_GlowbugJars_Warm</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Holliday Stuff ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Holliday Stuff</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HolidayStuff</li>
-					<li>HollidayLight_Blue</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HolidayStuff</li>
-					<li>HollidayLight_Green</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HolidayStuff</li>
-					<li>HollidayLight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HolidayStuff</li>
-					<li>HollidayLight_Red</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>HolidayStuff</li>
-					<li>HollidayChristmasTree</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="mlie.hollidaystuff">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HolidayStuff</li>
+						<li>HollidayLight_Blue</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HolidayStuff</li>
+						<li>HollidayLight_Green</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HolidayStuff</li>
+						<li>HollidayLight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HolidayStuff</li>
+						<li>HollidayLight_Red</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>HolidayStuff</li>
+						<li>HollidayChristmasTree</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Higher Power ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Higher Power</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>GeothermalGenerator_II</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>SolarGenerator_II</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>ToxifierGenerator_II</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>WatermillGenerator_II</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ChemfuelPoweredGenerator_II</li>
-					<li>WindTurbine_II</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="leion247612.higherhpower">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>GeothermalGenerator_II</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>SolarGenerator_II</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>ToxifierGenerator_II</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>WatermillGenerator_II</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ChemfuelPoweredGenerator_II</li>
+						<li>WindTurbine_II</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Lanterns (Continued) ================= -->
@@ -1738,717 +1726,703 @@
 	
 <!-- ================= Medieval Floodlight ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Medieval Floodlight</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>MedievalFloodlight</li>
-					<li>MedievalFloodlight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="salvador143.medievalfloodlight">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>MedievalFloodlight</li>
+						<li>MedievalFloodlight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Medieval Lighting and Heat ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Medieval Lighting and Heat</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>MLH_Lantern</li>
-					<li>MLH_Lantern</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>MLH_StreetLantern</li>
-					<li>MLH_StreetLantern</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="nunahuralshamikh.lightingandheat">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>MLH_Lantern</li>
+						<li>MLH_Lantern</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>MLH_StreetLantern</li>
+						<li>MLH_StreetLantern</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Night Lights ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Night Lights</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ZNLSmall</li>
-					<li>ZNLSmall</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ZNLLarge</li>
-					<li>ZNLLarge</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ZNLGrand</li>
-					<li>ZNLGrand</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="zylle.nightlights">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ZNLSmall</li>
+						<li>ZNLSmall</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ZNLLarge</li>
+						<li>ZNLLarge</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ZNLGrand</li>
+						<li>ZNLGrand</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Potlights ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Potlights</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Potlight</li>
-					<li>Potlight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>WallPotlight</li>
-					<li>WallPotlight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="katana.potlights">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Potlight</li>
+						<li>Potlight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>WallPotlight</li>
+						<li>WallPotlight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Power Poles ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Power Poles</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>RF_PowerPole</li>
-					<li>RF_PowerPole</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>RF_WallConnector</li>
-					<li>RF_WallConnector</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="co.uk.epicguru.rimforgepoles">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>RF_PowerPole</li>
+						<li>RF_PowerPole</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>RF_WallConnector</li>
+						<li>RF_WallConnector</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Power Poles Extended ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Power Poles Extended</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PP_MPowerPole</li>
-					<li>PP_MPowerPole</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PP_MPowerPoleLamp</li>
-					<li>PP_MPowerPoleLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>PP_PowerPoleLamp</li>
-					<li>PP_PowerPoleLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="gy.ppextend">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PP_MPowerPole</li>
+						<li>PP_MPowerPole</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PP_MPowerPoleLamp</li>
+						<li>PP_MPowerPoleLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>PP_PowerPoleLamp</li>
+						<li>PP_PowerPoleLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= ReBuild: Doors and Corners ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>ReBuild: Doors and Corners</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>RB_Fireplace</li>
-					<li>RB_Fireplace</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>RB_FloorLamp</li>
-					<li>RB_FloorLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>RB_OverwallArmor</li>
-					<li>RB_OverwallArmor</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="ReBuild.COTR.DoorsAndCorners">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>RB_Fireplace</li>
+						<li>RB_Fireplace</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>RB_FloorLamp</li>
+						<li>RB_FloorLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>RB_OverwallArmor</li>
+						<li>RB_OverwallArmor</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 
 <!-- ================= Replace Stuff - Continued ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Replace Stuff - Continued</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Cooler_Over</li>
-					<li>Cooler_Over</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Cooler_Over2W</li>
-					<li>Cooler_Over2W</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Vent_Over</li>
-					<li>Vent_Over</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="Memegoddess.ReplaceStuff">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Cooler_Over</li>
+						<li>Cooler_Over</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Cooler_Over2W</li>
+						<li>Cooler_Over2W</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Vent_Over</li>
+						<li>Vent_Over</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Terraforming Devices ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Terraforming Devices</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Pump_WaterDeep</li>
-					<li>Pump_WaterDeep</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Pump_WaterShallow</li>
-					<li>Pump_WaterShallow</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Pump_TerrainToShallowWater</li>
-					<li>Pump_TerrainToShallowWater</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Pump_SoilRich</li>
-					<li>Pump_SoilRich</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Pump_SoilStabilizer</li>
-					<li>Pump_SoilStabilizer</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Pump_GravelInjector</li>
-					<li>Pump_GravelInjector</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="tug.terraformerpumps">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Pump_WaterDeep</li>
+						<li>Pump_WaterDeep</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Pump_WaterShallow</li>
+						<li>Pump_WaterShallow</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Pump_TerrainToShallowWater</li>
+						<li>Pump_TerrainToShallowWater</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Pump_SoilRich</li>
+						<li>Pump_SoilRich</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Pump_SoilStabilizer</li>
+						<li>Pump_SoilStabilizer</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Pump_GravelInjector</li>
+						<li>Pump_GravelInjector</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Toxlamps ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Toxlamps</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToxLamps_FloodLight</li>
-					<li>ToxLamps_FloodLight</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToxLamps_FloorLamp</li>
-					<li>ToxLamps_FloorLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToxLamps_StandingLamp</li>
-					<li>ToxLamps_StandingLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>ToxLamps_WallLamp</li>
-					<li>ToxLamps_WallLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="koni.misc.toxlamps">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToxLamps_FloodLight</li>
+						<li>ToxLamps_FloodLight</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToxLamps_FloorLamp</li>
+						<li>ToxLamps_FloorLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToxLamps_StandingLamp</li>
+						<li>ToxLamps_StandingLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>ToxLamps_WallLamp</li>
+						<li>ToxLamps_WallLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Useful Ancient Junk ================= -->
 
-<Operation Class="XmlExtensions.FindMod">
-	<mods>
-		<li>Flynt.UsableAncientProps</li>
-	</mods>
-	<packageId>true</packageId>
-	<caseTrue>
-		<Operation Class="XmlExtensions.ApplyPatch">
-			<patchName>DontTrashThis_PatchBuilding</patchName>
-			<arguments>
-				<li>AncientLamp</li>
-				<li>AncientLamp</li>
-				<li>false</li>
-			</arguments>
-		</Operation>
-		<Operation Class="XmlExtensions.ApplyPatch">
-			<patchName>DontTrashThis_PatchBuilding</patchName>
-			<arguments>
-				<li>AncientWallLamp</li>
-				<li>AncientWallLamp</li>
-				<li>false</li>
-			</arguments>
-		</Operation>
-	</caseTrue>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="Flynt.UsableAncientProps">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>AncientLamp</li>
+						<li>AncientLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>AncientWallLamp</li>
+						<li>AncientWallLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Vanilla Furniture Expanded - Farming ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Vanilla Furniture Expanded - Farming</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_Sprinkler</li>
-					<li>VFE_Sprinkler</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="vanillaexpanded.vfefarming">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_Sprinkler</li>
+						<li>VFE_Sprinkler</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Vanilla Furniture Expanded ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Vanilla Furniture Expanded</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_AnimalSarcophagus</li>
-					<li>VFE_AnimalSarcophagus</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_Bench</li>
-					<li>Seat_Bench</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_CoffeeTable</li>
-					<li>VFE_CoffeeTable</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_Counter</li>
-					<li>Table_Counter</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_DeskLamp</li>
-					<li>VFE_DeskLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_ModernChair</li>
-					<li>Seat_ModernChair</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Stone_Campfire</li>
-					<li>Stone_Campfire</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_FloorLamp</li>
-					<li>VFE_FloorLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_LongPlantPot</li>
-					<li>VFE_LongPlantPot</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_Lounger</li>
-					<li>VFE_Lounger</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_ModularCouch</li>
-					<li>VFE_ModularCouch</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_RoyalArmchair</li>
-					<li>Seat_RoyalArmchair</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_RoyalChair</li>
-					<li>Seat_RoyalChair</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_Royal1x1c</li>
-					<li>Table_Royal1x1c</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_Royal1x2c</li>
-					<li>Table_Royal1x2c</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_Royal2x2c</li>
-					<li>Table_Royal2x2c</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_Royal2x4c</li>
-					<li>Table_Royal2x4c</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_Royal3x3c</li>
-					<li>Table_Royal3x3c</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_SquareChair</li>
-					<li>Seat_SquareChair</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_Cushion</li>
-					<li>Seat_Cushion</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Light_Streetlamp</li>
-					<li>Light_Streetlamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Table_1x1c</li>
-					<li>Table_1x1c</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="VanillaExpanded.VFECore">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_AnimalSarcophagus</li>
+						<li>VFE_AnimalSarcophagus</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_Bench</li>
+						<li>Seat_Bench</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_CoffeeTable</li>
+						<li>VFE_CoffeeTable</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_Counter</li>
+						<li>Table_Counter</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_DeskLamp</li>
+						<li>VFE_DeskLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_ModernChair</li>
+						<li>Seat_ModernChair</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Stone_Campfire</li>
+						<li>Stone_Campfire</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_FloorLamp</li>
+						<li>VFE_FloorLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_LongPlantPot</li>
+						<li>VFE_LongPlantPot</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_Lounger</li>
+						<li>VFE_Lounger</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_ModularCouch</li>
+						<li>VFE_ModularCouch</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_RoyalArmchair</li>
+						<li>Seat_RoyalArmchair</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_RoyalChair</li>
+						<li>Seat_RoyalChair</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_Royal1x1c</li>
+						<li>Table_Royal1x1c</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_Royal1x2c</li>
+						<li>Table_Royal1x2c</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_Royal2x2c</li>
+						<li>Table_Royal2x2c</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_Royal2x4c</li>
+						<li>Table_Royal2x4c</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_Royal3x3c</li>
+						<li>Table_Royal3x3c</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_SquareChair</li>
+						<li>Seat_SquareChair</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_Cushion</li>
+						<li>Seat_Cushion</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Light_Streetlamp</li>
+						<li>Light_Streetlamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Table_1x1c</li>
+						<li>Table_1x1c</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Vanilla Furniture Expanded - Power ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Vanilla Furniture Expanded - Power</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VPE_AdvancedGeothermalGenerator</li>
-					<li>VPE_AdvancedGeothermalGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_AdvancedSolarGenerator</li>
-					<li>VFE_AdvancedSolarGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_AdvancedWatermillGenerator</li>
-					<li>VFE_AdvancedWatermillGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_AdvancedWindTurbine</li>
-					<li>VFE_AdvancedWindTurbine</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_IndustrialChemfuelPoweredGenerator</li>
-					<li>VFE_IndustrialChemfuelPoweredGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_IndustrialWoodFiredGenerator</li>
-					<li>VFE_IndustrialWoodFiredGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_PortableChemfuelPoweredGenerator</li>
-					<li>VFE_PortableChemfuelPoweredGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_PortableWoodFiredGenerator</li>
-					<li>VFE_PortableWoodFiredGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFE_TidalGenerator</li>
-					<li>VFE_TidalGenerator</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="vanillaexpanded.vfepower">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VPE_AdvancedGeothermalGenerator</li>
+						<li>VPE_AdvancedGeothermalGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_AdvancedSolarGenerator</li>
+						<li>VFE_AdvancedSolarGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_AdvancedWatermillGenerator</li>
+						<li>VFE_AdvancedWatermillGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_AdvancedWindTurbine</li>
+						<li>VFE_AdvancedWindTurbine</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_IndustrialChemfuelPoweredGenerator</li>
+						<li>VFE_IndustrialChemfuelPoweredGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_IndustrialWoodFiredGenerator</li>
+						<li>VFE_IndustrialWoodFiredGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_PortableChemfuelPoweredGenerator</li>
+						<li>VFE_PortableChemfuelPoweredGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_PortableWoodFiredGenerator</li>
+						<li>VFE_PortableWoodFiredGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFE_TidalGenerator</li>
+						<li>VFE_TidalGenerator</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Vanilla Furniture Expanded - Spacer Module ================= -->
 
-<Operation Class="PatchOperationFindMod">
-	<mods>
-		<li>Vanilla Furniture Expanded - Spacer Module</li>
-	</mods>
-	<match Class="PatchOperationSequence">
-		<operations>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Seat_AdvChair</li>
-					<li>Seat_AdvChair</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFES_ModernArmchair</li>
-					<li>VFES_ModernArmchair</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>VFES_ModernCouch</li>
-					<li>VFES_ModernCouch</li>
-					<li>false</li>
-				</arguments>
-			</li>
-			<li Class="XmlExtensions.ApplyPatch">
-				<patchName>DontTrashThis_PatchBuilding</patchName>
-				<arguments>
-					<li>Spacer_OutdoorLamp</li>
-					<li>Spacer_OutdoorLamp</li>
-					<li>false</li>
-				</arguments>
-			</li>
-		</operations>
-	</match>
+<Operation Class="PatchOperationSequence">
+	<operations>
+		<li Class="PatchOperationSequence" MayRequire="VanillaExpanded.VFESpacer">
+			<operations>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Seat_AdvChair</li>
+						<li>Seat_AdvChair</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFES_ModernArmchair</li>
+						<li>VFES_ModernArmchair</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>VFES_ModernCouch</li>
+						<li>VFES_ModernCouch</li>
+						<li>false</li>
+					</arguments>
+				</li>
+				<li Class="XmlExtensions.ApplyPatch">
+					<patchName>DontTrashThis_PatchBuilding</patchName>
+					<arguments>
+						<li>Spacer_OutdoorLamp</li>
+						<li>Spacer_OutdoorLamp</li>
+						<li>false</li>
+					</arguments>
+				</li>
+			</operations>
+		</li>
+	</operations>
 </Operation>
 	
 <!-- ================= Wolfein Race ================= -->
